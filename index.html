@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description"
+		content="McNulty Family Tree" />
+	<meta name="robots"
+		content="noindex" />
+	<meta http-equiv="author"
+		content="Carlos Antonio McNulty" />
+	<title>McNulty Family Tree</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="rules.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Sign up</legend>
+			<div id="username-field" class="field">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" 
+				maxlength="32" placeholder="Email, or username"/>
+				<div id="username-feedback" class="feedback"></div>
+			</div>
+			<div id="password-field" class="field">
+				<label for="password">Password</label>
+				<div id="password-bar">
+					<input type="checkbox" name="checkbox" id="checkbox">
+					<label id="show-text" for="checkbox">
+						Show
+					</label>
+					<!-- <button id="show-button"><i class="fa fa-eye"></i>  Show</button> -->
+				</div>
+				<input type="password" name="password" maxlength="16" id="password" />
+			</div>
+			<div id="key-field" class="field">
+				<label for="key">Key</label>
+				<input type="password" name="key" id="key" placeholder="ex: 3a02-8L5x-03b9" />
+			</div>
+			<div class="icons">
+				<div class="column1">
+					<i id="capital" class="fa fa-check-circle-o icon"></i> One uppercase letter<br>
+					<i id="letter" class="fa fa-check-circle-o icon"></i> One lowercase letter<br>
+					<i id="number" class="fa fa-check-circle-o icon"></i> One number<br>
+				</div>
+				<div class="column2">
+					<i id="special" class="fa fa-check-circle-o icon"></i> One special character<br>
+					<i id="length" class="fa fa-check-circle-o icon"></i> 8 characters minimum<br>
+				</div>
+			</div>
+			<button id="submit-button">Get Started!</button>
+		</fieldset>
+	</form>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/event-handlers.js"></script>
+</body>
+</html>
