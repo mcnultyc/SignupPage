@@ -1,2 +1,2 @@
 # SignupPage
-Sign-up page
+This project has the resources for a simple webpage containing a single form for an invitation-only ancestry-type website. The files 'index.html' and 'rules.css' contain the code required for the browser to render the page. The two scripts required are in the 'js' directory of the project. The first file 'jquery-3.3.1.js' is the JQuery library used by the second script. The second script 'event-handlers.js' defines the event handlers for the form's fields.
