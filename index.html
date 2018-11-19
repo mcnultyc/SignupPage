@@ -12,14 +12,13 @@
 	<link rel="stylesheet" type="text/css" href="rules.css">
 </head>
 <body>
-	<form>
+	<form id="login">
 		<fieldset>
 			<legend>Sign up</legend>
 			<div id="username-field" class="field">
 				<label for="username">Username</label>
 				<input type="text" name="username" id="username" 
 				maxlength="32" placeholder="Email, or username"/>
-				<div id="username-feedback" class="feedback"></div>
 			</div>
 			<div id="password-field" class="field">
 				<label for="password">Password</label>
@@ -34,7 +33,7 @@
 			</div>
 			<div id="key-field" class="field">
 				<label for="key">Key</label>
-				<input type="password" name="key" id="key" placeholder="ex: 3a02-8L5x-03b9" />
+				<input type="text" name="key" id="key" placeholder="ex: 3a02-8L5x-03b9" />
 			</div>
 			<div class="icons">
 				<div class="column1">
